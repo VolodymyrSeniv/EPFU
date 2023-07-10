@@ -1,0 +1,20 @@
+Report 3 
+
+We decided to divided our program into 3 parts. main.c, main.h, IOput.h are files with functions 
+and variables used in automatic and interactive mode. Interactive.c and interactive.h contains 
+code need in interactive mode, the same with auto.c and auto.h, they are used in automatic version.
+All the functions we used works on global variables: struct Field** Map, struct Player players_data[9]
+and other variables to store data like number of players and size of the board.
+
+
+Main functions:
+void GenerateMap(); 
+void DrawMap(); 
+int Placement(int ID); 
+int Movement(/*int row_id, int column_id*/);
+void Placement(); 
+void Movement();
+void createOutputFile(char* name); 
+int ReadMap(char* name); 
+
+The describtion of the functions are in the both .c and .h files.

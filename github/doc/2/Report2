@@ -1,0 +1,25 @@
+Report 2
+Code main loop and interaction with user.
+
+User interaction idea:
+We decided to use the console as the game environment. Player using keyboard will interact with game. 
+We used scanf() to read data from user and printf() to show the data in the console.
+
+Data structure:
+We used the global (multi-files) variables declared in .c files and their extern declarations are in .h files.
+
+Variables:
+nplayers - number of players
+x - number of rows
+y - number of colums
+penguins - number of penguins
+players - table with players' ID
+
+We decided to hold the board data as the two dimensional array of structures. 
+The strucuture looks like that:
+struct Field
+{
+    int fish;
+    int penguin;
+}
+where penguin is the number of penguin on this field and fish is number of fish on this field.

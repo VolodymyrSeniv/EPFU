@@ -1,0 +1,1 @@
+We are creating a simple game about penguins.
